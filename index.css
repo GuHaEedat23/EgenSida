@@ -1,0 +1,47 @@
+body{
+    overflow-x: hidden;
+    background: linear-gradient(
+        to left,
+        #ffffff,
+        #eeeeee,
+        #ffffff
+      );
+      background-size: 200% 200%;
+      animation: animateGlow 5s linear infinite;
+}
+
+@keyframes animateGlow {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 200% 50%;
+    }
+  }
+
+  .Test2 {
+    font-size: large;
+    width: 60px;
+  }
+
+  .Test{
+    background: linear-gradient(
+        to left,
+        #ffffff,
+        #ff0000,
+        #ffffff
+      );
+      background-size: 200% 200%;
+      animation: Test 5s linear infinite;
+  }
+
+
+
+  @keyframes Test {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 200% 50%;
+    }
+  }
